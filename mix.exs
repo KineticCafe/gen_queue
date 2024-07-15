@@ -1,13 +1,13 @@
 defmodule GenQueue.Mixfile do
   use Mix.Project
 
-  @version "0.1.8"
+  @version "0.2.0"
 
   def project do
     [
       app: :gen_queue,
       version: @version,
-      elixir: "~> 1.6",
+      elixir: "~> 1.15",
       start_permanent: Mix.env() == :prod,
       deps: deps(),
       description: description(),
